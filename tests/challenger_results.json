@@ -1,0 +1,73 @@
+{
+  "test1_ssr_raw_html": {
+    "hasSplashOverlayInSSR": true,
+    "hasLogoInSSR": true,
+    "hasKarsaTextInSSR": true,
+    "hasExteriorImageInSSR": true,
+    "hasOnboardingInSSR": true,
+    "hasRoomInSSR": false
+  },
+  "test2_fresh_hydration": {
+    "consoleMessageCount": 0,
+    "pageErrors": [],
+    "hydrationErrors": []
+  },
+  "test3_completed_profile_hydration": {
+    "timingReport": {
+      "onboardingVisibleWithoutSplash": false,
+      "eventCount": 21,
+      "firstRoomEvent": {
+        "t": 152,
+        "hasSplash": true,
+        "hasOnboarding": false,
+        "hasRoom": true
+      },
+      "anyOnboardingWithoutSplash": false
+    },
+    "persistedStateValid": true,
+    "hydrationErrors": []
+  },
+  "test4_camera_viewport_invariants": {
+    "splashExitStartMs": 1561,
+    "splashDetachedMs": 2381,
+    "uniqueTransformsAfter800ms": [
+      "translate3d(-261.72px, -175.725px, 0px) scale(1.35)"
+    ],
+    "uniqueExitTransforms": [
+      "translate3d(-261.72px, -175.725px, 0px) scale(1.35)"
+    ],
+    "hasJumpDuringExit": false
+  },
+  "test5_cls_across_viewports": {
+    "Desktop 1920x1080": {
+      "cls": 0,
+      "entries": []
+    },
+    "Laptop 1440x900": {
+      "cls": 0.000028915895061728392,
+      "entries": [
+        {
+          "value": 0.000028915895061728392,
+          "sources": [
+            "#text"
+          ]
+        }
+      ]
+    },
+    "Tablet 768x1024": {
+      "cls": 0,
+      "entries": []
+    },
+    "Mobile 390x844": {
+      "cls": 0,
+      "entries": []
+    }
+  },
+  "test6_onboarding_completion_transition": {
+    "frame0Transform": "translate3d(-218.1px, -156.2px, 0px) scale(1.35)",
+    "settledTransform": "translate3d(-348.96px, -210.87px, 0px) scale(1.35)",
+    "distinctTransformCount": 2,
+    "uniqueAfter1200Count": 1,
+    "settledBeforeDismiss": true
+  }
+}

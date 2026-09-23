@@ -1,0 +1,435 @@
+{
+  "timestamp": "2026-09-20T10:54:43.557Z",
+  "port": 3010,
+  "viewports": {
+    "mobile_375x667": {
+      "viewport": {
+        "name": "mobile_375x667",
+        "width": 375,
+        "height": 667,
+        "deviceType": "mobile"
+      },
+      "step0Layout": {
+        "windowInnerWidth": 375,
+        "windowInnerHeight": 667,
+        "htmlScrollWidth": 375,
+        "htmlScrollHeight": 667,
+        "bodyScrollWidth": 375,
+        "bodyScrollHeight": 667,
+        "hasHorizontalOverflow": false,
+        "horizontalOverflowPx": 0,
+        "hasVerticalOverflow": false,
+        "verticalOverflowPx": 0
+      },
+      "step0LogoCheck": {
+        "totalKarsaElements": 1,
+        "logos": [
+          {
+            "tag": "SPAN",
+            "text": "KARSA",
+            "x": 93,
+            "y": 350,
+            "width": 189,
+            "height": 48,
+            "isTopLeft": false
+          }
+        ],
+        "hasTopLeftLogo": false
+      },
+      "step0Interactivity": {
+        "buttonElementAtPoint": {
+          "tag": "SPAN",
+          "id": "",
+          "className": "",
+          "text": "Mulai perjalanan!"
+        },
+        "inputElementAtPoint": {
+          "tag": "INPUT",
+          "id": "input-nama-panggilan"
+        },
+        "typedValue": "EmpiricalChallenger"
+      },
+      "step1SmaLayout": {
+        "windowInnerWidth": 375,
+        "windowInnerHeight": 667,
+        "htmlScrollWidth": 375,
+        "htmlScrollHeight": 667,
+        "hasHorizontalOverflow": false,
+        "horizontalOverflowPx": 0,
+        "hasVerticalOverflow": false,
+        "verticalOverflowPx": 0,
+        "cardHeight": 635,
+        "cardBottom": 671,
+        "isLanjutClipped": true
+      },
+      "step1SmaLogoCheck": {
+        "totalKarsaElements": 1,
+        "logos": [
+          {
+            "tag": "SPAN",
+            "x": 119,
+            "y": 53,
+            "isTopLeft": true
+          }
+        ],
+        "hasTopLeftLogo": true
+      },
+      "step1Interactivity": {
+        "tabSmpTopElement": {
+          "id": "",
+          "tag": "SPAN",
+          "text": "SMP"
+        },
+        "kelas8TopElement": {
+          "tag": "DIV",
+          "text": "Fase D"
+        }
+      },
+      "step1SmpLayout": {
+        "windowInnerWidth": 375,
+        "windowInnerHeight": 667,
+        "htmlScrollWidth": 375,
+        "htmlScrollHeight": 667,
+        "hasHorizontalOverflow": false,
+        "horizontalOverflowPx": 0,
+        "hasVerticalOverflow": false,
+        "verticalOverflowPx": 0
+      },
+      "step1SmpKelas8": {
+        "isK8Selected": true,
+        "isK8Remembered": true
+      },
+      "step2Reached": true,
+      "backNavigationSuccess": false,
+      "failures": [
+        "Duplicate/orphaned KARSA logo detected in top-left region on Step 1: [{\"tag\":\"SPAN\",\"x\":119,\"y\":53,\"isTopLeft\":true}]",
+        "'Kelas 8' chip obstructed: {\"tag\":\"DIV\",\"text\":\"Fase D\"}",
+        "Failed to return to Step 0 via 'Kembali' button from Step 1"
+      ],
+      "passed": false
+    },
+    "tablet_768x1024": {
+      "viewport": {
+        "name": "tablet_768x1024",
+        "width": 768,
+        "height": 1024,
+        "deviceType": "tablet"
+      },
+      "step0Layout": {
+        "windowInnerWidth": 768,
+        "windowInnerHeight": 1024,
+        "htmlScrollWidth": 768,
+        "htmlScrollHeight": 1024,
+        "bodyScrollWidth": 768,
+        "bodyScrollHeight": 1024,
+        "hasHorizontalOverflow": false,
+        "horizontalOverflowPx": 0,
+        "hasVerticalOverflow": false,
+        "verticalOverflowPx": 0
+      },
+      "step0LogoCheck": {
+        "totalKarsaElements": 1,
+        "logos": [
+          {
+            "tag": "SPAN",
+            "text": "KARSA",
+            "x": 266,
+            "y": 523,
+            "width": 236,
+            "height": 60,
+            "isTopLeft": false
+          }
+        ],
+        "hasTopLeftLogo": false
+      },
+      "step0Interactivity": {
+        "buttonElementAtPoint": {
+          "tag": "SPAN",
+          "id": "",
+          "className": "",
+          "text": "Mulai perjalanan!"
+        },
+        "inputElementAtPoint": {
+          "tag": "INPUT",
+          "id": "input-nama-panggilan"
+        },
+        "typedValue": "EmpiricalChallenger"
+      },
+      "step1SmaLayout": {
+        "windowInnerWidth": 768,
+        "windowInnerHeight": 1024,
+        "htmlScrollWidth": 768,
+        "htmlScrollHeight": 1024,
+        "hasHorizontalOverflow": false,
+        "horizontalOverflowPx": 0,
+        "hasVerticalOverflow": false,
+        "verticalOverflowPx": 0,
+        "cardHeight": 553,
+        "cardBottom": 808,
+        "isLanjutClipped": false
+      },
+      "step1SmaLogoCheck": {
+        "totalKarsaElements": 1,
+        "logos": [
+          {
+            "tag": "SPAN",
+            "x": 241,
+            "y": 304,
+            "isTopLeft": false
+          }
+        ],
+        "hasTopLeftLogo": false
+      },
+      "step1Interactivity": {
+        "tabSmpTopElement": {
+          "id": "",
+          "tag": "SPAN",
+          "text": "SMP"
+        },
+        "kelas8TopElement": {
+          "tag": "DIV",
+          "text": "Kelas 8"
+        }
+      },
+      "step1SmpLayout": {
+        "windowInnerWidth": 768,
+        "windowInnerHeight": 1024,
+        "htmlScrollWidth": 768,
+        "htmlScrollHeight": 1024,
+        "hasHorizontalOverflow": false,
+        "horizontalOverflowPx": 0,
+        "hasVerticalOverflow": false,
+        "verticalOverflowPx": 0
+      },
+      "step1SmpKelas8": {
+        "isK8Selected": true,
+        "isK8Remembered": true
+      },
+      "step2Reached": true,
+      "backNavigationSuccess": false,
+      "failures": [
+        "Failed to return to Step 0 via 'Kembali' button from Step 1"
+      ],
+      "passed": false
+    },
+    "desktop_1280x800": {
+      "viewport": {
+        "name": "desktop_1280x800",
+        "width": 1280,
+        "height": 800,
+        "deviceType": "desktop"
+      },
+      "step0Layout": {
+        "windowInnerWidth": 1280,
+        "windowInnerHeight": 800,
+        "htmlScrollWidth": 1280,
+        "htmlScrollHeight": 800,
+        "bodyScrollWidth": 1280,
+        "bodyScrollHeight": 800,
+        "hasHorizontalOverflow": false,
+        "horizontalOverflowPx": 0,
+        "hasVerticalOverflow": false,
+        "verticalOverflowPx": 0
+      },
+      "step0LogoCheck": {
+        "totalKarsaElements": 1,
+        "logos": [
+          {
+            "tag": "SPAN",
+            "text": "KARSA",
+            "x": 522,
+            "y": 421,
+            "width": 236,
+            "height": 60,
+            "isTopLeft": false
+          }
+        ],
+        "hasTopLeftLogo": false
+      },
+      "step0Interactivity": {
+        "buttonElementAtPoint": {
+          "tag": "SPAN",
+          "id": "",
+          "className": "",
+          "text": "Mulai perjalanan!"
+        },
+        "inputElementAtPoint": {
+          "tag": "INPUT",
+          "id": "input-nama-panggilan"
+        },
+        "typedValue": "EmpiricalChallenger"
+      },
+      "step1SmaLayout": {
+        "windowInnerWidth": 1280,
+        "windowInnerHeight": 800,
+        "htmlScrollWidth": 1280,
+        "htmlScrollHeight": 800,
+        "hasHorizontalOverflow": false,
+        "horizontalOverflowPx": 0,
+        "hasVerticalOverflow": false,
+        "verticalOverflowPx": 0,
+        "cardHeight": 553,
+        "cardBottom": 696,
+        "isLanjutClipped": false
+      },
+      "step1SmaLogoCheck": {
+        "totalKarsaElements": 1,
+        "logos": [
+          {
+            "tag": "SPAN",
+            "x": 497,
+            "y": 192,
+            "isTopLeft": false
+          }
+        ],
+        "hasTopLeftLogo": false
+      },
+      "step1Interactivity": {
+        "tabSmpTopElement": {
+          "id": "",
+          "tag": "SPAN",
+          "text": "SMP"
+        },
+        "kelas8TopElement": {
+          "tag": "DIV",
+          "text": "Kelas 8"
+        }
+      },
+      "step1SmpLayout": {
+        "windowInnerWidth": 1280,
+        "windowInnerHeight": 800,
+        "htmlScrollWidth": 1280,
+        "htmlScrollHeight": 800,
+        "hasHorizontalOverflow": false,
+        "horizontalOverflowPx": 0,
+        "hasVerticalOverflow": false,
+        "verticalOverflowPx": 0
+      },
+      "step1SmpKelas8": {
+        "isK8Selected": true,
+        "isK8Remembered": true
+      },
+      "step2Reached": true,
+      "backNavigationSuccess": false,
+      "failures": [
+        "Failed to return to Step 0 via 'Kembali' button from Step 1"
+      ],
+      "passed": false
+    },
+    "large_desktop_1920x1080": {
+      "viewport": {
+        "name": "large_desktop_1920x1080",
+        "width": 1920,
+        "height": 1080,
+        "deviceType": "large_desktop"
+      },
+      "step0Layout": {
+        "windowInnerWidth": 1920,
+        "windowInnerHeight": 1080,
+        "htmlScrollWidth": 1920,
+        "htmlScrollHeight": 1080,
+        "bodyScrollWidth": 1920,
+        "bodyScrollHeight": 1080,
+        "hasHorizontalOverflow": false,
+        "horizontalOverflowPx": 0,
+        "hasVerticalOverflow": false,
+        "verticalOverflowPx": 0
+      },
+      "step0LogoCheck": {
+        "totalKarsaElements": 1,
+        "logos": [
+          {
+            "tag": "SPAN",
+            "text": "KARSA",
+            "x": 842,
+            "y": 561,
+            "width": 236,
+            "height": 60,
+            "isTopLeft": false
+          }
+        ],
+        "hasTopLeftLogo": false
+      },
+      "step0Interactivity": {
+        "buttonElementAtPoint": {
+          "tag": "SPAN",
+          "id": "",
+          "className": "",
+          "text": "Mulai perjalanan!"
+        },
+        "inputElementAtPoint": {
+          "tag": "INPUT",
+          "id": "input-nama-panggilan"
+        },
+        "typedValue": "EmpiricalChallenger"
+      },
+      "step1SmaLayout": {
+        "windowInnerWidth": 1920,
+        "windowInnerHeight": 1080,
+        "htmlScrollWidth": 1920,
+        "htmlScrollHeight": 1080,
+        "hasHorizontalOverflow": false,
+        "horizontalOverflowPx": 0,
+        "hasVerticalOverflow": false,
+        "verticalOverflowPx": 0,
+        "cardHeight": 553,
+        "cardBottom": 836,
+        "isLanjutClipped": false
+      },
+      "step1SmaLogoCheck": {
+        "totalKarsaElements": 1,
+        "logos": [
+          {
+            "tag": "SPAN",
+            "x": 817,
+            "y": 332,
+            "isTopLeft": false
+          }
+        ],
+        "hasTopLeftLogo": false
+      },
+      "step1Interactivity": {
+        "tabSmpTopElement": {
+          "id": "",
+          "tag": "SPAN",
+          "text": "SMP"
+        },
+        "kelas8TopElement": {
+          "tag": "DIV",
+          "text": "Kelas 8"
+        }
+      },
+      "step1SmpLayout": {
+        "windowInnerWidth": 1920,
+        "windowInnerHeight": 1080,
+        "htmlScrollWidth": 1920,
+        "htmlScrollHeight": 1080,
+        "hasHorizontalOverflow": false,
+        "horizontalOverflowPx": 0,
+        "hasVerticalOverflow": false,
+        "verticalOverflowPx": 0
+      },
+      "step1SmpKelas8": {
+        "isK8Selected": true,
+        "isK8Remembered": false
+      },
+      "step2Reached": true,
+      "backNavigationSuccess": false,
+      "failures": [
+        "Category Memory failed: 'Kelas 8' was forgotten after toggling tabs",
+        "Failed to return to Step 0 via 'Kembali' button from Step 1"
+      ],
+      "passed": false
+    }
+  },
+  "allPassed": false,
+  "findings": [
+    "[mobile_375x667] Duplicate/orphaned KARSA logo detected in top-left region on Step 1: [{\"tag\":\"SPAN\",\"x\":119,\"y\":53,\"isTopLeft\":true}]",
+    "[mobile_375x667] 'Kelas 8' chip obstructed: {\"tag\":\"DIV\",\"text\":\"Fase D\"}",
+    "[mobile_375x667] Failed to return to Step 0 via 'Kembali' button from Step 1",
+    "[tablet_768x1024] Failed to return to Step 0 via 'Kembali' button from Step 1",
+    "[desktop_1280x800] Failed to return to Step 0 via 'Kembali' button from Step 1",
+    "[large_desktop_1920x1080] Category Memory failed: 'Kelas 8' was forgotten after toggling tabs",
+    "[large_desktop_1920x1080] Failed to return to Step 0 via 'Kembali' button from Step 1"
+  ]
+}

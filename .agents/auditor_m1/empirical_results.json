@@ -1,0 +1,127 @@
+{
+  "total": 24,
+  "passed": 24,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Single Centered KARSA Logo on Step 0",
+      "passed": true,
+      "details": "Detected 1 KARSA wordmark elements in DOM (Expected 1). Position: x=602.09375, y=461"
+    },
+    {
+      "name": "Logo is Centered inside Modal Card",
+      "passed": true,
+      "details": "Logo x-coord: 602.09375px (centered in 1440px viewport)"
+    },
+    {
+      "name": "Absence of CSS-hidden / orphaned Top-Left Logo",
+      "passed": true,
+      "details": "Found 0 hidden or absolute top-6 left-6 elements"
+    },
+    {
+      "name": "Spotlight Beam Layers Rendered in DOM",
+      "passed": true,
+      "details": "Found 4 distinct optical layers in DOM"
+    },
+    {
+      "name": "God-Ray Core Shaft Polygon & mix-blend-screen",
+      "passed": true,
+      "details": "Shaft filter: blur(36px), mixBlendMode: screen"
+    },
+    {
+      "name": "Secondary Soft Wash Beam Polygon & mix-blend-screen",
+      "passed": true,
+      "details": "Soft wash filter: blur(65px), mixBlendMode: screen"
+    },
+    {
+      "name": "Modal Stage Bounce Halo Radial Gradient",
+      "passed": true,
+      "details": "Stage halo filter: blur(40px), mixBlendMode: screen"
+    },
+    {
+      "name": "Apex Luminaire Emitter with animate-pulse-glow",
+      "passed": true,
+      "details": "Apex emitter class: absolute -top-28 -right-28 w-[520px] h-[520px] rounded-full bg-gradient-to-br from-white/50 via-[#F4D06F]/35 to-transparent blur-3xl opacity-90 animate-pulse-glow pointer-events-none"
+    },
+    {
+      "name": "Step 1 Navigation Success",
+      "passed": true,
+      "details": "Heading: \"Kamu kelas berapa sekarang?\""
+    },
+    {
+      "name": "Tier 1 ARIA Tablist & Tabs Present",
+      "passed": true,
+      "details": "tablist: true, #tab-smp: true, #tab-sma: true"
+    },
+    {
+      "name": "Default Category is SMA/SMK",
+      "passed": true,
+      "details": "tab-sma: true, tab-smp: false"
+    },
+    {
+      "name": "Tier 2 Initial Sub-Classes are SMA (Kelas 10, 11, 12)",
+      "passed": true,
+      "details": "Rendered radios: [\"Fase EKelas 10Fondasi Portofolio SNBP\",\"Fase FKelas 11Puncak Prestasi OPSI & OSN\",\"Fase FKelas 12Finalisasi Prestasi & SNBP\"]"
+    },
+    {
+      "name": "DemoContext State in localStorage (SMA/SMK Kelas 10)",
+      "passed": true,
+      "details": "localStorage jenjangKelas: \"SMA/SMK Kelas 10\""
+    },
+    {
+      "name": "Tier 1 Switch Updates aria-selected to SMP",
+      "passed": true,
+      "details": "tab-smp aria-selected: true"
+    },
+    {
+      "name": "Tier 2 Re-renders SMP Sub-Classes (Kelas 7, 8, 9)",
+      "passed": true,
+      "details": "Rendered radios: [\"Fase DKelas 7Eksplorasi Minat & Riset Dasar\",\"Fase DKelas 8Penguatan Riset & Lomba OSN\",\"Fase DKelas 9Persiapan Lanjutan & Portofolio\"]"
+    },
+    {
+      "name": "DemoContext State Updates to 'SMP Kelas 7' on Category Switch",
+      "passed": true,
+      "details": "localStorage profile.jenjangKelas: \"SMP Kelas 7\""
+    },
+    {
+      "name": "DemoContext State Updates to 'SMP Kelas 8'",
+      "passed": true,
+      "details": "localStorage profile.jenjangKelas: \"SMP Kelas 8\""
+    },
+    {
+      "name": "Kelas 8 aria-checked is 'true'",
+      "passed": true,
+      "details": "aria-checked: true"
+    },
+    {
+      "name": "Switch to SMA restores SMA selection",
+      "passed": true,
+      "details": "localStorage profile.jenjangKelas: \"SMA/SMK Kelas 10\""
+    },
+    {
+      "name": "Switch to SMP restores previously selected 'SMP Kelas 8' (Category Memory)",
+      "passed": true,
+      "details": "localStorage profile.jenjangKelas: \"SMP Kelas 8\""
+    },
+    {
+      "name": "Tier 1 Tab Touch Targets (height >= 48px)",
+      "passed": true,
+      "details": "Tab heights: SMPKelas 7–9: 62px, SMA / SMKKelas 10–12: 62px"
+    },
+    {
+      "name": "Tier 2 Radio Touch Targets (height >= 56px)",
+      "passed": true,
+      "details": "Radio heights: Fase DKelas 7Eksplorasi Minat : 114px, Fase DKelas 8Penguatan Riset &: 114px, Fase DKelas 9Persiapan Lanjuta: 114px"
+    },
+    {
+      "name": "Step 4 Summary Displays Selected 'SMP Kelas 8'",
+      "passed": true,
+      "details": "Step 4 Jenjang & Kelas text: \"SMP Kelas 8\""
+    },
+    {
+      "name": "Onboarding Completed & Persisted (isCompleted=true, jenjangKelas='SMP Kelas 8')",
+      "passed": true,
+      "details": "Final state: isCompleted=true, jenjangKelas=\"SMP Kelas 8\""
+    }
+  ]
+}

@@ -1,0 +1,1076 @@
+{
+  "timestamp": "2026-09-21T14:48:34.875Z",
+  "viewportsTested": [
+    "mobile_375x667",
+    "tablet_768x1024",
+    "desktop_1440x900",
+    "mobile_compact_320x568",
+    "desktop_fhd_1920x1080"
+  ],
+  "splashResults": {
+    "mobile_375x667": {
+      "windowInner": {
+        "width": 375,
+        "height": 667
+      },
+      "scrollMetrics": {
+        "docScrollWidth": 375,
+        "bodyScrollWidth": 375,
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 375
+      },
+      "logoMetrics": {
+        "text": "KARSA",
+        "rect": {
+          "x": 69.59375,
+          "y": 303.5,
+          "width": 235.8125,
+          "height": 60
+        },
+        "logoCenterX": 187.5,
+        "logoCenterY": 333.5,
+        "vpCenterX": 187.5,
+        "vpCenterY": 333.5,
+        "deltaX": 0,
+        "deltaY": 0,
+        "isDeadCenteredX": true,
+        "isDeadCenteredY": true,
+        "fontSize": "60px",
+        "fontWeight": "700",
+        "opacity": "0.85",
+        "tracking": "6px"
+      },
+      "exteriorImage": {
+        "src": "http://localhost:3008/_next/image?url=%2Fassets%2Frumah_karsa%2Frumah_karsa_exterior.webp&w=640&q=75",
+        "opacity": "0.5",
+        "objectFit": "cover",
+        "renderedWidth": 375,
+        "renderedHeight": 667,
+        "naturalWidth": 375,
+        "naturalHeight": 210,
+        "isDistorted": false,
+        "objectFitCoverVerified": true
+      },
+      "scrimLayers": {
+        "hasDarkScrimA": true,
+        "scrimAComputedBg": "rgba(0, 0, 0, 0.4)",
+        "hasDarkScrimB": true,
+        "scrimBBackground": "radial-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.85) 100%)"
+      },
+      "overflowingElementsCount": 5,
+      "overflowingSample": [
+        {
+          "tag": "DIV",
+          "className": "absolute top-1/4 left-1/2 -translate-x-1/2 w-96 h-",
+          "right": 379.5,
+          "left": -4.5,
+          "width": 384
+        },
+        {
+          "tag": "DIV",
+          "className": "absolute -top-28 -right-28 w-[520px] h-[520px] rou",
+          "right": 494.2999572753906,
+          "left": -40.299957275390625,
+          "width": 534.5999145507812
+        },
+        {
+          "tag": "DIV",
+          "className": "absolute -top-10 right-0 w-[1350px] h-[1050px] opa",
+          "right": 375,
+          "left": -975,
+          "width": 1350
+        }
+      ]
+    },
+    "tablet_768x1024": {
+      "windowInner": {
+        "width": 768,
+        "height": 1024
+      },
+      "scrollMetrics": {
+        "docScrollWidth": 768,
+        "bodyScrollWidth": 768,
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 768
+      },
+      "logoMetrics": {
+        "text": "KARSA",
+        "rect": {
+          "x": 266.09375,
+          "y": 482,
+          "width": 235.8125,
+          "height": 60
+        },
+        "logoCenterX": 384,
+        "logoCenterY": 512,
+        "vpCenterX": 384,
+        "vpCenterY": 512,
+        "deltaX": 0,
+        "deltaY": 0,
+        "isDeadCenteredX": true,
+        "isDeadCenteredY": true,
+        "fontSize": "60px",
+        "fontWeight": "700",
+        "opacity": "0.85",
+        "tracking": "6px"
+      },
+      "exteriorImage": {
+        "src": "http://localhost:3008/_next/image?url=%2Fassets%2Frumah_karsa%2Frumah_karsa_exterior.webp&w=828&q=75",
+        "opacity": "0.5",
+        "objectFit": "cover",
+        "renderedWidth": 768,
+        "renderedHeight": 1024,
+        "naturalWidth": 768,
+        "naturalHeight": 432,
+        "isDistorted": false,
+        "objectFitCoverVerified": true
+      },
+      "scrimLayers": {
+        "hasDarkScrimA": true,
+        "scrimAComputedBg": "rgba(0, 0, 0, 0.4)",
+        "hasDarkScrimB": true,
+        "scrimBBackground": "radial-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.85) 100%)"
+      },
+      "overflowingElementsCount": 3,
+      "overflowingSample": [
+        {
+          "tag": "DIV",
+          "className": "absolute -top-28 -right-28 w-[520px] h-[520px] rou",
+          "right": 886.1116638183594,
+          "left": 353.8882751464844,
+          "width": 532.223388671875
+        },
+        {
+          "tag": "DIV",
+          "className": "absolute -top-10 right-0 w-[1350px] h-[1050px] opa",
+          "right": 768,
+          "left": -582,
+          "width": 1350
+        },
+        {
+          "tag": "DIV",
+          "className": "absolute -top-10 right-0 w-[1400px] h-[1100px] opa",
+          "right": 768,
+          "left": -632,
+          "width": 1400
+        }
+      ]
+    },
+    "desktop_1440x900": {
+      "windowInner": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollMetrics": {
+        "docScrollWidth": 1440,
+        "bodyScrollWidth": 1440,
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 1440
+      },
+      "logoMetrics": {
+        "text": "KARSA",
+        "rect": {
+          "x": 602.09375,
+          "y": 420,
+          "width": 235.8125,
+          "height": 60
+        },
+        "logoCenterX": 720,
+        "logoCenterY": 450,
+        "vpCenterX": 720,
+        "vpCenterY": 450,
+        "deltaX": 0,
+        "deltaY": 0,
+        "isDeadCenteredX": true,
+        "isDeadCenteredY": true,
+        "fontSize": "60px",
+        "fontWeight": "700",
+        "opacity": "0.85",
+        "tracking": "6px"
+      },
+      "exteriorImage": {
+        "src": "http://localhost:3008/_next/image?url=%2Fassets%2Frumah_karsa%2Frumah_karsa_exterior.webp&w=1920&q=75",
+        "opacity": "0.5",
+        "objectFit": "cover",
+        "renderedWidth": 1440,
+        "renderedHeight": 900,
+        "naturalWidth": 1440,
+        "naturalHeight": 810,
+        "isDistorted": false,
+        "objectFitCoverVerified": true
+      },
+      "scrimLayers": {
+        "hasDarkScrimA": true,
+        "scrimAComputedBg": "rgba(0, 0, 0, 0.4)",
+        "hasDarkScrimB": true,
+        "scrimBBackground": "radial-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.85) 100%)"
+      },
+      "overflowingElementsCount": 1,
+      "overflowingSample": [
+        {
+          "tag": "DIV",
+          "className": "absolute -top-28 -right-28 w-[520px] h-[520px] rou",
+          "right": 1555.902099609375,
+          "left": 1028.097900390625,
+          "width": 527.80419921875
+        }
+      ]
+    },
+    "mobile_compact_320x568": {
+      "windowInner": {
+        "width": 320,
+        "height": 568
+      },
+      "scrollMetrics": {
+        "docScrollWidth": 320,
+        "bodyScrollWidth": 320,
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 320
+      },
+      "logoMetrics": {
+        "text": "KARSA",
+        "rect": {
+          "x": 42.09375,
+          "y": 254,
+          "width": 235.8125,
+          "height": 60
+        },
+        "logoCenterX": 160,
+        "logoCenterY": 284,
+        "vpCenterX": 160,
+        "vpCenterY": 284,
+        "deltaX": 0,
+        "deltaY": 0,
+        "isDeadCenteredX": true,
+        "isDeadCenteredY": true,
+        "fontSize": "60px",
+        "fontWeight": "700",
+        "opacity": "0.85",
+        "tracking": "6px"
+      },
+      "exteriorImage": {
+        "src": "http://localhost:3008/_next/image?url=%2Fassets%2Frumah_karsa%2Frumah_karsa_exterior.webp&w=640&q=75",
+        "opacity": "0.5",
+        "objectFit": "cover",
+        "renderedWidth": 320,
+        "renderedHeight": 568,
+        "naturalWidth": 320,
+        "naturalHeight": 180,
+        "isDistorted": false,
+        "objectFitCoverVerified": true
+      },
+      "scrimLayers": {
+        "hasDarkScrimA": true,
+        "scrimAComputedBg": "rgba(0, 0, 0, 0.4)",
+        "hasDarkScrimB": true,
+        "scrimBBackground": "radial-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.85) 100%)"
+      },
+      "overflowingElementsCount": 6,
+      "overflowingSample": [
+        {
+          "tag": "DIV",
+          "className": "absolute top-1/4 left-1/2 -translate-x-1/2 w-96 h-",
+          "right": 352,
+          "left": -32,
+          "width": 384
+        },
+        {
+          "tag": "DIV",
+          "className": "absolute bottom-10 left-10 w-72 h-72 bg-karsa-gold",
+          "right": 328,
+          "left": 40,
+          "width": 288
+        },
+        {
+          "tag": "DIV",
+          "className": "absolute -top-28 -right-28 w-[520px] h-[520px] rou",
+          "right": 439.6790466308594,
+          "left": -95.67904663085938,
+          "width": 535.3580932617188
+        }
+      ]
+    },
+    "desktop_fhd_1920x1080": {
+      "windowInner": {
+        "width": 1920,
+        "height": 1080
+      },
+      "scrollMetrics": {
+        "docScrollWidth": 1920,
+        "bodyScrollWidth": 1920,
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 1920
+      },
+      "logoMetrics": {
+        "text": "KARSA",
+        "rect": {
+          "x": 842.09375,
+          "y": 510,
+          "width": 235.8125,
+          "height": 60
+        },
+        "logoCenterX": 960,
+        "logoCenterY": 540,
+        "vpCenterX": 960,
+        "vpCenterY": 540,
+        "deltaX": 0,
+        "deltaY": 0,
+        "isDeadCenteredX": true,
+        "isDeadCenteredY": true,
+        "fontSize": "60px",
+        "fontWeight": "700",
+        "opacity": "0.85",
+        "tracking": "6px"
+      },
+      "exteriorImage": {
+        "src": "http://localhost:3008/_next/image?url=%2Fassets%2Frumah_karsa%2Frumah_karsa_exterior.webp&w=1920&q=75",
+        "opacity": "0.5",
+        "objectFit": "cover",
+        "renderedWidth": 1920,
+        "renderedHeight": 1080,
+        "naturalWidth": 1920,
+        "naturalHeight": 1080,
+        "isDistorted": false,
+        "objectFitCoverVerified": true
+      },
+      "scrimLayers": {
+        "hasDarkScrimA": true,
+        "scrimAComputedBg": "rgba(0, 0, 0, 0.4)",
+        "hasDarkScrimB": true,
+        "scrimBBackground": "radial-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.85) 100%)"
+      },
+      "overflowingElementsCount": 1,
+      "overflowingSample": [
+        {
+          "tag": "DIV",
+          "className": "absolute -top-28 -right-28 w-[520px] h-[520px] rou",
+          "right": 2032.191162109375,
+          "left": 1511.8089599609375,
+          "width": 520.3822021484375
+        }
+      ]
+    }
+  },
+  "onboardingResults": {
+    "mobile_375x667": {
+      "windowInner": {
+        "width": 375,
+        "height": 667
+      },
+      "scrollMetrics": {
+        "docScrollWidth": 375,
+        "bodyScrollWidth": 375,
+        "hasHorizontalOverflow": false,
+        "overflowPixels": 0
+      },
+      "exteriorImage": {
+        "opacity": "0.3",
+        "objectFit": "cover",
+        "renderedWidth": 375,
+        "renderedHeight": 667,
+        "naturalWidth": 375,
+        "naturalHeight": 210
+      },
+      "dualScrimStack": {
+        "hasScrimA": true,
+        "hasScrimB": true,
+        "hasSpotlightApex": true,
+        "hasGodRay": true
+      },
+      "modal": {
+        "rect": {
+          "x": 12,
+          "y": 139.5,
+          "width": 351,
+          "height": 412
+        },
+        "fitsViewportWidth": true,
+        "backdropFilter": "blur(36px) saturate(1.9) brightness(1.05)",
+        "backgroundColor": "rgba(10, 18, 36, 0.65)",
+        "borderColor": "rgba(163, 226, 255, 0.35)"
+      },
+      "textItemsSample": [
+        {
+          "text": "“Halo! Namaku Karsa, selamat datang!”",
+          "tag": "P",
+          "color": "rgb(241, 245, 249)",
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "16.5px",
+          "isInsideButton": false,
+          "isGoldBtn": null,
+          "rect": {
+            "x": 160,
+            "y": 213,
+            "width": 171,
+            "height": 33
+          },
+          "isContainedInModal": true,
+          "contrastRatio": 13.69216298990205
+        },
+        {
+          "text": "KARSA",
+          "tag": "SPAN",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "48px",
+          "fontWeight": "700",
+          "lineHeight": "48px",
+          "isInsideButton": false,
+          "isGoldBtn": null,
+          "rect": {
+            "x": 93.171875,
+            "y": 342.5,
+            "width": 188.640625,
+            "height": 48
+          },
+          "isContainedInModal": true,
+          "contrastRatio": 15
+        },
+        {
+          "text": "Mulai perjalanan!",
+          "tag": "SPAN",
+          "color": "rgb(2, 6, 23)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "lineHeight": "24px",
+          "isInsideButton": true,
+          "isGoldBtn": true,
+          "rect": {
+            "x": 107.84375,
+            "y": 462.5,
+            "width": 131.3125,
+            "height": 24
+          },
+          "isContainedInModal": true,
+          "contrastRatio": 10.950972177042303
+        },
+        {
+          "text": "Demo Kompetisi Pitch Belimpact Global 20",
+          "tag": "P",
+          "color": "rgb(100, 116, 139)",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "16px",
+          "isInsideButton": false,
+          "isGoldBtn": null,
+          "rect": {
+            "x": 29,
+            "y": 518.5,
+            "width": 317,
+            "height": 16
+          },
+          "isContainedInModal": true,
+          "contrastRatio": 3.1520267990861743
+        }
+      ],
+      "clsObserved": 0.0003247012176070885,
+      "minContrast": 3.1520267990861743,
+      "worstTextItem": {
+        "text": "Demo Kompetisi Pitch Belimpact Global 20",
+        "tag": "P",
+        "color": "rgb(100, 116, 139)",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "16px",
+        "isInsideButton": false,
+        "isGoldBtn": null,
+        "rect": {
+          "x": 29,
+          "y": 518.5,
+          "width": 317,
+          "height": 16
+        },
+        "isContainedInModal": true,
+        "contrastRatio": 3.1520267990861743
+      }
+    },
+    "tablet_768x1024": {
+      "windowInner": {
+        "width": 768,
+        "height": 1024
+      },
+      "scrollMetrics": {
+        "docScrollWidth": 768,
+        "bodyScrollWidth": 768,
+        "hasHorizontalOverflow": false,
+        "overflowPixels": 0
+      },
+      "exteriorImage": {
+        "opacity": "0.3",
+        "objectFit": "cover",
+        "renderedWidth": 768,
+        "renderedHeight": 1024,
+        "naturalWidth": 768,
+        "naturalHeight": 432
+      },
+      "dualScrimStack": {
+        "hasScrimA": true,
+        "hasScrimB": true,
+        "hasSpotlightApex": true,
+        "hasGodRay": true
+      },
+      "modal": {
+        "rect": {
+          "x": 96,
+          "y": 304,
+          "width": 576,
+          "height": 456
+        },
+        "fitsViewportWidth": true,
+        "backdropFilter": "blur(36px) saturate(1.9) brightness(1.05)",
+        "backgroundColor": "rgba(10, 18, 36, 0.65)",
+        "borderColor": "rgba(163, 226, 255, 0.35)"
+      },
+      "textItemsSample": [
+        {
+          "text": "“Halo! Namaku Karsa, selamat datang!”",
+          "tag": "P",
+          "color": "rgb(241, 245, 249)",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "lineHeight": "20px",
+          "isInsideButton": false,
+          "isGoldBtn": null,
+          "rect": {
+            "x": 309.6875,
+            "y": 400,
+            "width": 264.625,
+            "height": 20
+          },
+          "isContainedInModal": true,
+          "contrastRatio": 13.69216298990205
+        },
+        {
+          "text": "KARSA",
+          "tag": "SPAN",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "60px",
+          "fontWeight": "700",
+          "lineHeight": "60px",
+          "isInsideButton": false,
+          "isGoldBtn": null,
+          "rect": {
+            "x": 266.09375,
+            "y": 523,
+            "width": 235.8125,
+            "height": 60
+          },
+          "isContainedInModal": true,
+          "contrastRatio": 15
+        },
+        {
+          "text": "Mulai perjalanan!",
+          "tag": "SPAN",
+          "color": "rgb(2, 6, 23)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "lineHeight": "24px",
+          "isInsideButton": true,
+          "isGoldBtn": true,
+          "rect": {
+            "x": 304.34375,
+            "y": 655,
+            "width": 131.3125,
+            "height": 24
+          },
+          "isContainedInModal": true,
+          "contrastRatio": 10.950972177042303
+        },
+        {
+          "text": "Demo Kompetisi Pitch Belimpact Global 20",
+          "tag": "P",
+          "color": "rgb(100, 116, 139)",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "16px",
+          "isInsideButton": false,
+          "isGoldBtn": null,
+          "rect": {
+            "x": 192,
+            "y": 711,
+            "width": 384,
+            "height": 16
+          },
+          "isContainedInModal": true,
+          "contrastRatio": 3.1520267990861743
+        }
+      ],
+      "clsObserved": 0.00006701052188873291,
+      "minContrast": 3.1520267990861743,
+      "worstTextItem": {
+        "text": "Demo Kompetisi Pitch Belimpact Global 20",
+        "tag": "P",
+        "color": "rgb(100, 116, 139)",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "16px",
+        "isInsideButton": false,
+        "isGoldBtn": null,
+        "rect": {
+          "x": 192,
+          "y": 711,
+          "width": 384,
+          "height": 16
+        },
+        "isContainedInModal": true,
+        "contrastRatio": 3.1520267990861743
+      }
+    },
+    "desktop_1440x900": {
+      "windowInner": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollMetrics": {
+        "docScrollWidth": 1440,
+        "bodyScrollWidth": 1440,
+        "hasHorizontalOverflow": false,
+        "overflowPixels": 0
+      },
+      "exteriorImage": {
+        "opacity": "0.3",
+        "objectFit": "cover",
+        "renderedWidth": 1440,
+        "renderedHeight": 900,
+        "naturalWidth": 1440,
+        "naturalHeight": 810
+      },
+      "dualScrimStack": {
+        "hasScrimA": true,
+        "hasScrimB": true,
+        "hasSpotlightApex": true,
+        "hasGodRay": true
+      },
+      "modal": {
+        "rect": {
+          "x": 432,
+          "y": 242,
+          "width": 576,
+          "height": 456
+        },
+        "fitsViewportWidth": true,
+        "backdropFilter": "blur(36px) saturate(1.9) brightness(1.05)",
+        "backgroundColor": "rgba(10, 18, 36, 0.65)",
+        "borderColor": "rgba(163, 226, 255, 0.35)"
+      },
+      "textItemsSample": [
+        {
+          "text": "“Halo! Namaku Karsa, selamat datang!”",
+          "tag": "P",
+          "color": "rgb(241, 245, 249)",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "lineHeight": "20px",
+          "isInsideButton": false,
+          "isGoldBtn": null,
+          "rect": {
+            "x": 645.6875,
+            "y": 338,
+            "width": 264.625,
+            "height": 20
+          },
+          "isContainedInModal": true,
+          "contrastRatio": 13.69216298990205
+        },
+        {
+          "text": "KARSA",
+          "tag": "SPAN",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "60px",
+          "fontWeight": "700",
+          "lineHeight": "60px",
+          "isInsideButton": false,
+          "isGoldBtn": null,
+          "rect": {
+            "x": 602.09375,
+            "y": 461,
+            "width": 235.8125,
+            "height": 60
+          },
+          "isContainedInModal": true,
+          "contrastRatio": 15
+        },
+        {
+          "text": "Mulai perjalanan!",
+          "tag": "SPAN",
+          "color": "rgb(2, 6, 23)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "lineHeight": "24px",
+          "isInsideButton": true,
+          "isGoldBtn": true,
+          "rect": {
+            "x": 640.34375,
+            "y": 593,
+            "width": 131.3125,
+            "height": 24
+          },
+          "isContainedInModal": true,
+          "contrastRatio": 10.950972177042303
+        },
+        {
+          "text": "Demo Kompetisi Pitch Belimpact Global 20",
+          "tag": "P",
+          "color": "rgb(100, 116, 139)",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "16px",
+          "isInsideButton": false,
+          "isGoldBtn": null,
+          "rect": {
+            "x": 528,
+            "y": 649,
+            "width": 384,
+            "height": 16
+          },
+          "isContainedInModal": true,
+          "contrastRatio": 3.1520267990861743
+        }
+      ],
+      "clsObserved": 0.000028915895061728392,
+      "minContrast": 3.1520267990861743,
+      "worstTextItem": {
+        "text": "Demo Kompetisi Pitch Belimpact Global 20",
+        "tag": "P",
+        "color": "rgb(100, 116, 139)",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "16px",
+        "isInsideButton": false,
+        "isGoldBtn": null,
+        "rect": {
+          "x": 528,
+          "y": 649,
+          "width": 384,
+          "height": 16
+        },
+        "isContainedInModal": true,
+        "contrastRatio": 3.1520267990861743
+      }
+    },
+    "mobile_compact_320x568": {
+      "windowInner": {
+        "width": 320,
+        "height": 568
+      },
+      "scrollMetrics": {
+        "docScrollWidth": 320,
+        "bodyScrollWidth": 320,
+        "hasHorizontalOverflow": false,
+        "overflowPixels": 0
+      },
+      "exteriorImage": {
+        "opacity": "0.3",
+        "objectFit": "cover",
+        "renderedWidth": 320,
+        "renderedHeight": 568,
+        "naturalWidth": 320,
+        "naturalHeight": 180
+      },
+      "dualScrimStack": {
+        "hasScrimA": true,
+        "hasScrimB": true,
+        "hasSpotlightApex": true,
+        "hasGodRay": true
+      },
+      "modal": {
+        "rect": {
+          "x": 12,
+          "y": 90,
+          "width": 296,
+          "height": 412
+        },
+        "fitsViewportWidth": true,
+        "backdropFilter": "blur(36px) saturate(1.9) brightness(1.05)",
+        "backgroundColor": "rgba(10, 18, 36, 0.65)",
+        "borderColor": "rgba(163, 226, 255, 0.35)"
+      },
+      "textItemsSample": [
+        {
+          "text": "“Halo! Namaku Karsa, selamat datang!”",
+          "tag": "P",
+          "color": "rgb(241, 245, 249)",
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "16.5px",
+          "isInsideButton": false,
+          "isGoldBtn": null,
+          "rect": {
+            "x": 160,
+            "y": 155.25,
+            "width": 116,
+            "height": 49.5
+          },
+          "isContainedInModal": true,
+          "contrastRatio": 13.69216298990205
+        },
+        {
+          "text": "KARSA",
+          "tag": "SPAN",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "48px",
+          "fontWeight": "700",
+          "lineHeight": "48px",
+          "isInsideButton": false,
+          "isGoldBtn": null,
+          "rect": {
+            "x": 65.671875,
+            "y": 293,
+            "width": 188.640625,
+            "height": 48
+          },
+          "isContainedInModal": true,
+          "contrastRatio": 15
+        },
+        {
+          "text": "Mulai perjalanan!",
+          "tag": "SPAN",
+          "color": "rgb(2, 6, 23)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "lineHeight": "24px",
+          "isInsideButton": true,
+          "isGoldBtn": true,
+          "rect": {
+            "x": 80.34375,
+            "y": 413,
+            "width": 131.3125,
+            "height": 24
+          },
+          "isContainedInModal": true,
+          "contrastRatio": 10.950972177042303
+        },
+        {
+          "text": "Demo Kompetisi Pitch Belimpact Global 20",
+          "tag": "P",
+          "color": "rgb(100, 116, 139)",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "16px",
+          "isInsideButton": false,
+          "isGoldBtn": null,
+          "rect": {
+            "x": 29,
+            "y": 469,
+            "width": 262,
+            "height": 16
+          },
+          "isContainedInModal": true,
+          "contrastRatio": 3.1520267990861743
+        }
+      ],
+      "clsObserved": 0.0005227059983138266,
+      "minContrast": 3.1520267990861743,
+      "worstTextItem": {
+        "text": "Demo Kompetisi Pitch Belimpact Global 20",
+        "tag": "P",
+        "color": "rgb(100, 116, 139)",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "16px",
+        "isInsideButton": false,
+        "isGoldBtn": null,
+        "rect": {
+          "x": 29,
+          "y": 469,
+          "width": 262,
+          "height": 16
+        },
+        "isContainedInModal": true,
+        "contrastRatio": 3.1520267990861743
+      }
+    },
+    "desktop_fhd_1920x1080": {
+      "windowInner": {
+        "width": 1920,
+        "height": 1080
+      },
+      "scrollMetrics": {
+        "docScrollWidth": 1920,
+        "bodyScrollWidth": 1920,
+        "hasHorizontalOverflow": false,
+        "overflowPixels": 0
+      },
+      "exteriorImage": {
+        "opacity": "0.3",
+        "objectFit": "cover",
+        "renderedWidth": 1920,
+        "renderedHeight": 1080,
+        "naturalWidth": 1920,
+        "naturalHeight": 1080
+      },
+      "dualScrimStack": {
+        "hasScrimA": true,
+        "hasScrimB": true,
+        "hasSpotlightApex": true,
+        "hasGodRay": true
+      },
+      "modal": {
+        "rect": {
+          "x": 672,
+          "y": 332,
+          "width": 576,
+          "height": 456
+        },
+        "fitsViewportWidth": true,
+        "backdropFilter": "blur(36px) saturate(1.9) brightness(1.05)",
+        "backgroundColor": "rgba(10, 18, 36, 0.65)",
+        "borderColor": "rgba(163, 226, 255, 0.35)"
+      },
+      "textItemsSample": [
+        {
+          "text": "“Halo! Namaku Karsa, selamat datang!”",
+          "tag": "P",
+          "color": "rgb(241, 245, 249)",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "lineHeight": "20px",
+          "isInsideButton": false,
+          "isGoldBtn": null,
+          "rect": {
+            "x": 885.6875,
+            "y": 428,
+            "width": 264.625,
+            "height": 20
+          },
+          "isContainedInModal": true,
+          "contrastRatio": 13.69216298990205
+        },
+        {
+          "text": "KARSA",
+          "tag": "SPAN",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "60px",
+          "fontWeight": "700",
+          "lineHeight": "60px",
+          "isInsideButton": false,
+          "isGoldBtn": null,
+          "rect": {
+            "x": 842.09375,
+            "y": 551,
+            "width": 235.8125,
+            "height": 60
+          },
+          "isContainedInModal": true,
+          "contrastRatio": 15
+        },
+        {
+          "text": "Mulai perjalanan!",
+          "tag": "SPAN",
+          "color": "rgb(2, 6, 23)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "lineHeight": "24px",
+          "isInsideButton": true,
+          "isGoldBtn": true,
+          "rect": {
+            "x": 880.34375,
+            "y": 683,
+            "width": 131.3125,
+            "height": 24
+          },
+          "isContainedInModal": true,
+          "contrastRatio": 10.950972177042303
+        },
+        {
+          "text": "Demo Kompetisi Pitch Belimpact Global 20",
+          "tag": "P",
+          "color": "rgb(100, 116, 139)",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "16px",
+          "isInsideButton": false,
+          "isGoldBtn": null,
+          "rect": {
+            "x": 768,
+            "y": 739,
+            "width": 384,
+            "height": 16
+          },
+          "isContainedInModal": true,
+          "contrastRatio": 3.1520267990861743
+        }
+      ],
+      "clsObserved": 0.000013554325810185186,
+      "minContrast": 3.1520267990861743,
+      "worstTextItem": {
+        "text": "Demo Kompetisi Pitch Belimpact Global 20",
+        "tag": "P",
+        "color": "rgb(100, 116, 139)",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "16px",
+        "isInsideButton": false,
+        "isGoldBtn": null,
+        "rect": {
+          "x": 768,
+          "y": 739,
+          "width": 384,
+          "height": 16
+        },
+        "isContainedInModal": true,
+        "contrastRatio": 3.1520267990861743
+      }
+    }
+  },
+  "artifactForensics": {
+    "audit_screenshots/splash_loading_screen.png": {
+      "exists": true,
+      "filePath": "audit_screenshots/splash_loading_screen.png",
+      "isPng": true,
+      "sizeBytes": 403791,
+      "width": 1440,
+      "height": 900,
+      "bitDepth": 8,
+      "colorType": 2,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0,
+      "sha256": "48feed3685b596140faae3e137615ada0fadc92f153b8f615d4a68560e2c38ca"
+    },
+    "splash_loading_screen.png": {
+      "exists": true,
+      "filePath": "splash_loading_screen.png",
+      "isPng": true,
+      "sizeBytes": 403791,
+      "width": 1440,
+      "height": 900,
+      "bitDepth": 8,
+      "colorType": 2,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0,
+      "sha256": "48feed3685b596140faae3e137615ada0fadc92f153b8f615d4a68560e2c38ca"
+    },
+    "audit_screenshots/onboarding_darkened_bg.png": {
+      "exists": true,
+      "filePath": "audit_screenshots/onboarding_darkened_bg.png",
+      "isPng": true,
+      "sizeBytes": 799421,
+      "width": 1440,
+      "height": 900,
+      "bitDepth": 8,
+      "colorType": 2,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0,
+      "sha256": "ef81df27c9a1d7840243db275f5d6065cb9819f33511da4adeb439e70f8edf67"
+    },
+    "onboarding_darkened_bg.png": {
+      "exists": true,
+      "filePath": "onboarding_darkened_bg.png",
+      "isPng": true,
+      "sizeBytes": 799421,
+      "width": 1440,
+      "height": 900,
+      "bitDepth": 8,
+      "colorType": 2,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0,
+      "sha256": "ef81df27c9a1d7840243db275f5d6065cb9819f33511da4adeb439e70f8edf67"
+    }
+  },
+  "failures": [],
+  "warnings": []
+}

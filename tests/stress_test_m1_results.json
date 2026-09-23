@@ -1,0 +1,206 @@
+{
+  "passed": 36,
+  "failed": 2,
+  "tests": [
+    {
+      "testName": "Step 1 Transition Successful",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "testName": "Default Tier 1 Tab is SMA/SMK",
+      "status": "PASS",
+      "details": "Expected SMA=true, SMP=false. Got SMA=true, SMP=false"
+    },
+    {
+      "testName": "Default Tier 2 Radio Selection is Kelas 10",
+      "status": "PASS",
+      "details": "Got text: Fase E\nKelas 10\nFondasi Portofolio SNBP"
+    },
+    {
+      "testName": "Profile state persistence contains canonical 'SMA/SMK Kelas 10'",
+      "status": "PASS",
+      "details": "Stored jenjangKelas: SMA/SMK Kelas 10"
+    },
+    {
+      "testName": "SMP Tab Active after click",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "testName": "Default SMP sub-class initialized to Kelas 7",
+      "status": "PASS",
+      "details": "Fase D\nKelas 7\nEksplorasi Minat & Riset Dasar"
+    },
+    {
+      "testName": "Selected SMP Kelas 8",
+      "status": "PASS",
+      "details": "Fase D\nKelas 8\nPenguatan Riset & Lomba OSN"
+    },
+    {
+      "testName": "LocalStorage updated to 'SMP Kelas 8'",
+      "status": "PASS",
+      "details": "SMP Kelas 8"
+    },
+    {
+      "testName": "Switched to SMA/SMK Tab",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "testName": "Selected SMA/SMK Kelas 11",
+      "status": "PASS",
+      "details": "Fase F\nKelas 11\nPuncak Prestasi OPSI & OSN"
+    },
+    {
+      "testName": "LocalStorage updated to 'SMA/SMK Kelas 11'",
+      "status": "PASS",
+      "details": "SMA/SMK Kelas 11"
+    },
+    {
+      "testName": "Category Memory: SMP Kelas 8 preserved upon return to SMP",
+      "status": "PASS",
+      "details": "Active radio: Fase D\nKelas 8\nPenguatan Riset & Lomba OSN"
+    },
+    {
+      "testName": "Profile jenjangKelas preserved as 'SMP Kelas 8'",
+      "status": "PASS",
+      "details": "SMP Kelas 8"
+    },
+    {
+      "testName": "Category Memory: SMA Kelas 11 preserved upon return to SMA",
+      "status": "PASS",
+      "details": "Active radio: Fase F\nKelas 11\nPuncak Prestasi OPSI & OSN"
+    },
+    {
+      "testName": "Profile jenjangKelas preserved as 'SMA/SMK Kelas 11'",
+      "status": "PASS",
+      "details": "SMA/SMK Kelas 11"
+    },
+    {
+      "testName": "Rapid Switching: Exactly one tab is selected after burst",
+      "status": "PASS",
+      "details": "SMP=false, SMA=true"
+    },
+    {
+      "testName": "Rapid Switching: Tier 2 radiogroup matches active tab category",
+      "status": "PASS",
+      "details": "Active tab: SMA, Radiogroup label: Pilih Kelas SMA"
+    },
+    {
+      "testName": "Rapid Switching: Exactly one sub-class radio chip is checked",
+      "status": "PASS",
+      "details": "Checked count: 1"
+    },
+    {
+      "testName": "Rapid Switching: Storage state matches DOM active chip",
+      "status": "PASS",
+      "details": "DOM: Kelas 11, Storage: SMA/SMK Kelas 11"
+    },
+    {
+      "testName": "Advance to Step 2",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "testName": "Advance to Step 3",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "testName": "Advance to Step 4 (Summary)",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "testName": "Step 4 Summary: Displays exact canonical class string",
+      "status": "PASS",
+      "details": "Expected 'SMP Kelas 9', got 'SMP Kelas 9'"
+    },
+    {
+      "testName": "Step 4 Summary: No undefined, null, or NaN present",
+      "status": "PASS",
+      "details": "Value: 'SMP Kelas 9'"
+    },
+    {
+      "testName": "Navigated back to Step 1 successfully",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "testName": "Step 1 State Intact after reverse navigation",
+      "status": "PASS",
+      "details": "SMP Active=true, Kelas 9 Checked=true"
+    },
+    {
+      "testName": "Step 4 Summary: Dynamically re-synchronized to 'SMA/SMK Kelas 12'",
+      "status": "PASS",
+      "details": "Expected 'SMA/SMK Kelas 12', got 'SMA/SMK Kelas 12'"
+    },
+    {
+      "testName": "Page Reload on Step 4: Step 4 rehydrates correctly",
+      "status": "PASS",
+      "details": "Visible: true"
+    },
+    {
+      "testName": "Page Reload on Step 4: 'SMA/SMK Kelas 12' persisted across reload",
+      "status": "PASS",
+      "details": "Expected 'SMA/SMK Kelas 12', got 'SMA/SMK Kelas 12'"
+    },
+    {
+      "testName": "Rehydrated Step 1: Active Tab matches profile category (SMA)",
+      "status": "PASS",
+      "details": "SMA Tab Selected: true"
+    },
+    {
+      "testName": "Rehydrated Step 1: Correct sub-class (Kelas 12) is checked",
+      "status": "PASS",
+      "details": "Kelas 12 aria-checked: true"
+    },
+    {
+      "testName": "Direct Step 1 Reload: SMP tab remains active after reload",
+      "status": "FAIL",
+      "details": "Expected SMP active=true, got SMP=false. Active radiogroup label: 'Pilih Kelas SMA'"
+    },
+    {
+      "testName": "Direct Step 1 Reload: Kelas 8 remains checked after reload",
+      "status": "FAIL",
+      "details": "Kelas 8 aria-checked: 'MISSING_FROM_DOM', Total checked count: 0"
+    },
+    {
+      "testName": "Exhaustive 3x3 Combinatorial Category Memory Matrix (9 pairs)",
+      "status": "PASS",
+      "details": "[Kelas 7 <-> Kelas 10]: SMP_OK=true, SMA_OK=true; [Kelas 7 <-> Kelas 11]: SMP_OK=true, SMA_OK=true; [Kelas 7 <-> Kelas 12]: SMP_OK=true, SMA_OK=true; [Kelas 8 <-> Kelas 10]: SMP_OK=true, SMA_OK=true; [Kelas 8 <-> Kelas 11]: SMP_OK=true, SMA_OK=true; [Kelas 8 <-> Kelas 12]: SMP_OK=true, SMA_OK=true; [Kelas 9 <-> Kelas 10]: SMP_OK=true, SMA_OK=true; [Kelas 9 <-> Kelas 11]: SMP_OK=true, SMA_OK=true; [Kelas 9 <-> Kelas 12]: SMP_OK=true, SMA_OK=true"
+    },
+    {
+      "testName": "DOM Scan: No 'NaN' in rendered text",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "testName": "DOM Scan: No 'undefined' in rendered text",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "testName": "DOM Scan: No 'null' in rendered text",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "testName": "Browser Console: Zero uncaught runtime errors",
+      "status": "PASS",
+      "details": ""
+    }
+  ],
+  "findings": [
+    {
+      "testName": "Direct Step 1 Reload: SMP tab remains active after reload",
+      "details": "Expected SMP active=true, got SMP=false. Active radiogroup label: 'Pilih Kelas SMA'"
+    },
+    {
+      "testName": "Direct Step 1 Reload: Kelas 8 remains checked after reload",
+      "details": "Kelas 8 aria-checked: 'MISSING_FROM_DOM', Total checked count: 0"
+    }
+  ]
+}
