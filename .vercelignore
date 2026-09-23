@@ -2,6 +2,7 @@ node_modules
 .next
 .git
 .vercel
-assets
+/assets
+!public/assets
 audit_screenshots
 *.log

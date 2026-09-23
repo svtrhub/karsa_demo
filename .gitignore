@@ -31,6 +31,7 @@ yarn-error.log*
 .vercel
 audit_screenshots
 /assets
+!public/assets
 
 # typescript / build info
 *.tsbuildinfo
