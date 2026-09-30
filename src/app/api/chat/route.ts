@@ -5,6 +5,35 @@ import { checkRateLimit } from "@/lib/rateLimit";
 
 export const runtime = "nodejs";
 
+// Input caps — enforced at the route boundary before any downstream processing
+const MAX_MESSAGES = 15;
+const MAX_MSG_LENGTH = 1000;
+
+interface ChatRequestBody {
+  persona: PersonaKey;
+  messages: InputMessage[];
+  userProfile?: Partial<UserProfile>;
+}
+
+/**
+ * Checks if the request origin hostname matches the server host or is a known
+ * local development address. Uses URL parsing to prevent substring-bypass attacks
+ * (e.g. evil.com/karsademo.vercel.app would pass a naive .includes() check).
+ */
+function isOriginAllowed(source: string, host: string): boolean {
+  try {
+    const { hostname } = new URL(source);
+    const serverHostname = host.split(":")[0]; // strip port if present
+    return (
+      hostname === serverHostname ||
+      hostname === "localhost" ||
+      hostname === "127.0.0.1"
+    );
+  } catch {
+    return false;
+  }
+}
+
 export async function POST(req: NextRequest) {
   try {
     // 1. CORS & Direct-Call Protection (Origin / Referer Validation)
@@ -15,14 +44,8 @@ export async function POST(req: NextRequest) {
     if (origin || referer) {
       const allowedHost = host || "localhost:3000";
       const requestSource = origin || referer || "";
-      
-      // Allow requests from same host or local development
-      const isAllowed =
-        requestSource.includes(allowedHost) ||
-        requestSource.includes("localhost") ||
-        requestSource.includes("127.0.0.1");
 
-      if (!isAllowed) {
+      if (!isOriginAllowed(requestSource, allowedHost)) {
         console.warn(`[Security Alert] Blocked unauthorized cross-site request from: ${requestSource}`);
         return new Response("Forbidden: Unauthorized request origin.", { status: 403 });
       }
@@ -45,23 +68,36 @@ export async function POST(req: NextRequest) {
     }
 
     // 3. Request Body Parsing & Validation
-    let body: any = {};
+    let body: ChatRequestBody;
     try {
-      body = await req.json();
+      body = await req.json() as ChatRequestBody;
     } catch {
       return new Response("Invalid or empty JSON body.", { status: 400 });
     }
 
-    const { persona, messages, userProfile } = body as {
-      persona: PersonaKey;
-      messages: InputMessage[];
-      userProfile?: Partial<UserProfile>;
-    };
+    const { persona, messages, userProfile } = body;
 
     if (!persona || !messages || !Array.isArray(messages)) {
       return new Response("Invalid request parameters. Must include persona and messages array.", {
         status: 400,
       });
+    }
+
+    // 4. Input Size Caps — reject oversized payloads before hitting the LLM
+    if (messages.length > MAX_MESSAGES) {
+      return new Response(
+        `Too many messages. Maximum ${MAX_MESSAGES} messages per request.`,
+        { status: 400 }
+      );
+    }
+
+    for (const msg of messages) {
+      if (typeof msg.content === "string" && msg.content.length > MAX_MSG_LENGTH) {
+        return new Response(
+          `Message exceeds maximum length of ${MAX_MSG_LENGTH} characters.`,
+          { status: 400 }
+        );
+      }
     }
 
     return await streamPersonaResponse({

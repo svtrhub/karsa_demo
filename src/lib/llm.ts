@@ -15,7 +15,26 @@ export interface StreamPersonaOptions {
   userProfile?: Partial<UserProfile>;
 }
 
-const MAX_INPUT_LENGTH = 4000; // Cap single message input length to bound costs
+// Cap single message content length as a downstream safety net.
+// Primary enforcement is at the route layer (MAX_MSG_LENGTH=1000).
+// This 4000-char cap handles any LLM content piped through llm.ts directly.
+const MAX_INPUT_LENGTH = 4000;
+
+/**
+ * Streams text into a ReadableStream controller word-by-word with a 15ms
+ * delay between tokens to simulate a live typing effect for fallback responses.
+ */
+async function streamWordsInto(
+  controller: ReadableStreamDefaultController,
+  text: string
+): Promise<void> {
+  const encoder = new TextEncoder();
+  const words = text.split(" ");
+  for (let i = 0; i < words.length; i++) {
+    controller.enqueue(encoder.encode(words[i] + (i === words.length - 1 ? "" : " ")));
+    await new Promise((res) => setTimeout(res, 15));
+  }
+}
 
 export async function streamPersonaResponse({
   persona,
@@ -98,13 +117,7 @@ export async function streamPersonaResponse({
                   messages.filter((m) => m.role === "user" || m.sender === "user").pop()?.content || "",
                   userProfile?.nama || "Teman"
                 );
-                const encoder = new TextEncoder();
-                const words = fallbackText.split(" ");
-                for (let i = 0; i < words.length; i++) {
-                  const chunk = words[i] + (i === words.length - 1 ? "" : " ");
-                  controller.enqueue(encoder.encode(chunk));
-                  await new Promise((res) => setTimeout(res, 15));
-                }
+                await streamWordsInto(controller, fallbackText);
               }
               clearTimeout(timeoutId);
               controller.close();
@@ -117,13 +130,7 @@ export async function streamPersonaResponse({
                   messages.filter((m) => m.role === "user" || m.sender === "user").pop()?.content || "",
                   userProfile?.nama || "Teman"
                 );
-                const encoder = new TextEncoder();
-                const words = fallbackText.split(" ");
-                for (let i = 0; i < words.length; i++) {
-                  const chunk = words[i] + (i === words.length - 1 ? "" : " ");
-                  controller.enqueue(encoder.encode(chunk));
-                  await new Promise((res) => setTimeout(res, 15));
-                }
+                await streamWordsInto(controller, fallbackText);
               }
               controller.close();
             }
@@ -157,16 +164,9 @@ function generateFallbackStreamResponse(
   const lastUserMsg = messages.filter((m) => m.role === "user").pop()?.content || "";
   const responseText = getFallbackResponse(persona, lastUserMsg, userProfile?.nama || "Teman");
 
-  const encoder = new TextEncoder();
-  const words = responseText.split(" ");
-
   const stream = new ReadableStream({
     async start(controller) {
-      for (let i = 0; i < words.length; i++) {
-        const chunk = words[i] + (i === words.length - 1 ? "" : " ");
-        controller.enqueue(encoder.encode(chunk));
-        await new Promise((res) => setTimeout(res, 15));
-      }
+      await streamWordsInto(controller, responseText);
       controller.close();
     },
   });

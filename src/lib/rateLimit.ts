@@ -1,5 +1,10 @@
 // In-memory sliding window rate limiter for demo traffic
 // Tracks request timestamps per IP address.
+//
+// NOTE: This store is in-process memory. On serverless platforms (Vercel),
+// each function cold-start gets its own isolated store. The rate limit is
+// per-instance, not network-global. For production enforcement across
+// distributed instances, replace with a shared store (e.g. Upstash Redis).
 
 interface RateLimitRecord {
   timestamps: number[];
