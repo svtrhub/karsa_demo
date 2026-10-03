@@ -209,11 +209,6 @@ export interface PersonaTheme {
   accentBg: string;
 }
 
-export interface PersonaChip {
-  label: string;
-  prompt: string;
-}
-
 export const PERSONA_BUBBLE_THEME: Record<PersonaKey, PersonaTheme> = {
   karsa: {
     bg: "rgba(106,44,145,0.18)",
@@ -242,38 +237,6 @@ export const PERSONA_BUBBLE_THEME: Record<PersonaKey, PersonaTheme> = {
   },
 };
 
-export const PERSONA_CHIPS: Record<PersonaKey, PersonaChip[]> = {
-  karsa: [
-    { label: "🗺️ Peta Strategi", prompt: "bantu aku buat peta strategi kompetisi untuk semester ini" },
-    { label: "🧭 Pilih Lomba", prompt: "aku bingung mau ikut lomba apa, bantu aku pilih" },
-    { label: "📊 Evaluasi Rencana", prompt: "evaluasi rencana belajar dan lomba yang sudah aku buat" },
-  ],
-  ara: [
-    { label: "⏱️ Sprint 20 Menit", prompt: "buatkan jadwal sprint belajar 20 menit untuk hari ini" },
-    { label: "📅 Rencana Harian", prompt: "bantu aku buat rencana belajar harian yang realistis" },
-    { label: "🌙 Cek Jadwal Malam", prompt: "apakah jadwal belajar malamku sudah terlalu larut?" },
-  ],
-  radit: [
-    { label: "🪙 Hitung Biaya Lomba", prompt: "hitung estimasi biaya total untuk ikut satu lomba esai nasional" },
-    { label: "📋 Rekap Koin", prompt: "bagaimana cara mengalokasikan koin belajar dengan efisien?" },
-    { label: "💡 ROI Portofolio", prompt: "apakah pengeluaran untuk lomba ini sebanding dengan manfaat portofolionya?" },
-  ],
-  sekar: [
-    { label: "🤝 Cari Partner Tim", prompt: "carikan kriteria partner tim yang cocok untuk lomba beregu" },
-    { label: "🎧 Playlist Fokus", prompt: "rekomendasikan lagu atau playlist untuk menemani belajar" },
-    { label: "🌐 Cari Lomba Baru", prompt: "ada lomba apa yang cocok untuk siswa SMA semester ini?" },
-  ],
-  arka: [
-    { label: "🔍 Uji Draf Proposal", prompt: "periksa alur argumen dan metodologi draf proposalku" },
-    { label: "📐 Rumusan Masalah", prompt: "bantu aku menyusun rumusan masalah yang tajam dan akademis" },
-    { label: "📑 Validasi Sumber", prompt: "bagaimana cara memastikan sumber data risetku valid?" },
-  ],
-};
-
 export function getPersonaTheme(personaKey: PersonaKey): PersonaTheme {
   return PERSONA_BUBBLE_THEME[personaKey] || PERSONA_BUBBLE_THEME.karsa;
-}
-
-export function getPersonaChips(personaKey: PersonaKey): PersonaChip[] {
-  return PERSONA_CHIPS[personaKey] || PERSONA_CHIPS.karsa;
 }

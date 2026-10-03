@@ -53,7 +53,7 @@ export const ChatModal: React.FC = () => {
   const lastSubmittedTimeRef = useRef<number>(0);
 
   const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+    messagesEndRef.current?.scrollIntoView({ behavior: isStreaming ? "auto" : "smooth" });
   };
 
   useEffect(() => {

@@ -74,15 +74,27 @@ export const DemoProvider: React.FC<{ children: React.ReactNode }> = ({ children
     }
   }, []);
 
-  // Persist state changes to localStorage (Side Effect)
+  // Persist state changes to localStorage (Side Effect).
+  // Debounced: streaming updates state on every chunk, so writing immediately
+  // would JSON.stringify the whole state per chunk. Flushed on pagehide.
+  const latestStateRef = useRef(state);
+  latestStateRef.current = state;
+
   useEffect(() => {
-    if (isLoaded) {
+    if (!isLoaded) return;
+    const persist = () => {
       try {
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(latestStateRef.current));
       } catch {
         console.error("Failed to persist state");
       }
-    }
+    };
+    const timer = setTimeout(persist, 300);
+    window.addEventListener("pagehide", persist);
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener("pagehide", persist);
+    };
   }, [state, isLoaded]);
 
   // Clean up celebrate timer on unmount
